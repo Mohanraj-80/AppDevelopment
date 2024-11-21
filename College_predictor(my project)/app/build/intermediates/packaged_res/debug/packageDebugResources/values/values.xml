@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">College_predictor</string>
+    <string name="gcm_defaultSenderId" translatable="false">339466717786</string>
+    <string name="google_api_key" translatable="false">AIzaSyCL8xxMBbRLcNG7UVLYkPtFc4PQ8CCni6M</string>
+    <string name="google_app_id" translatable="false">1:339466717786:android:f22b256874e970eba62663</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCL8xxMBbRLcNG7UVLYkPtFc4PQ8CCni6M</string>
+    <string name="google_storage_bucket" translatable="false">college-predictor-auth.firebasestorage.app</string>
+    <string name="project_id" translatable="false">college-predictor-auth</string>
+    <style name="Base.Theme.College_predictor" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.College_predictor" parent="Base.Theme.College_predictor"/>
+</resources>

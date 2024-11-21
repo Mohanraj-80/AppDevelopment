@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Register">
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="abc@gmail.com"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="#5227d8"
+        android:textSize="18sp"/>
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Your password should be strong"
+        android:textSize="18sp"
+        android:textColor="#5227d8"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:inputType="textPassword"/>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#673AB7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:text="Login"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
